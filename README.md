@@ -10,7 +10,7 @@ This repository packages work originally completed as part of Western Governors 
 Can historical daily revenue from the hospital's first two years of operation be used to accurately forecast short-term future revenue?
 
 ## Dataset
-- Source: `medical_clean.csv`
+- Source: `hospital_revenue_raw.csv`
 - Observations: 731 daily revenue records
 - Columns: `Day`, `Revenue`
 - Missing values: none
@@ -49,8 +49,8 @@ Can historical daily revenue from the hospital's first two years of operation be
 ![ARIMA report visual](assets/report-extracts/report_image_01.png)
 
 ## Included Files
-- `notebooks/Task-3.ipynb`
-- `data/medical_clean.csv`
+- `notebooks/revenue_arima_forecast.ipynb`
+- `data/hospital_revenue_raw.csv`
 - `data/cleaned_dataset.csv`
 - `data/train_dataset.csv`
 - `data/test_dataset.csv`
